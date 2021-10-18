@@ -82,7 +82,7 @@ let setting = JSON.parse(fs.readFileSync('./setting.json'))
 owner = setting.owner
 gamewaktu = setting.gamewaktu
 petik = '```'
-fake = 'CREATOR BOT\©KurrXd'//GANTI NAMA KAMU BEP
+fake = 'CREATOR BOT\©vintero'//GAN
 ban =[]
 
 // Database
@@ -837,7 +837,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
         case 'menu':
         case 'help':
-        menu =`Hai Kak.....\n*${pushname}*\n\`\`\`Saya Sherlynn-Botz,SENANG BISA BERTEMU DENGANMU HARI INI\`\`\`
+        menu =`Hai Kak.....\n*${pushname}*\n\`\`\`Saya vBot,SENANG BISA BERTEMU DENGANMU HARI INI\`\`\`
         
 𝗜𝗡𝗙𝗢 𝗣𝗘𝗡𝗚𝗚𝗨𝗡𝗔 𝗕𝗢𝗧
 ❏ NAMA : *${pushname}*
@@ -846,26 +846,23 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 ❏ LIMIT : *${isPremium ? 'Unlimited' : `${gcount}`}*
 
 𝗜𝗡𝗙𝗢 𝗕𝗢𝗧
-❏ NAMA : *Sherlynn-Botz*
+❏ NAMA : *vBot*
 ❏ API : @6281220670449
-❏ OWNER : *©KurrXd*
+❏ OWNER : *©vintero*
 ❏ API : *@6281220670449*
-❏ AKTIF : *${runtime(process.uptime())}*
+❏ UPTIME : *${runtime(process.uptime())}*
 ❏ BATERAI : *${baterai}%*
-❏ PREIFIX : *『${prefix}』*
+❏ PREFIX : *『${prefix}』*
 
    ━━━━━ 𝗔𝗟𝗟 𝗠𝗘𝗡𝗨 ━━━━━
 
 𝖨𝖭𝖥𝖮 𝖬𝖤𝖭𝖴
 *き⃟🦈 ${prefix}update*
-*き⃟🦈 ${prefix}iklan*
 *き⃟🦈 ${prefix}level*
 *き⃟🦈 ${prefix}rules*
 *き⃟🦈 ${prefix}profile*
 *き⃟🦈 ${prefix}waktu*
 *き⃟🦈 ${prefix}botstat*
-*き⃟🦈 ${prefix}sewabot*
-*き⃟🦈 ${prefix}listsewa*
 *き⃟🦈 ${prefix}owner*
 *き⃟🦈 ${prefix}ping*
 *き⃟🦈 ${prefix}runtime*
@@ -1073,6 +1070,7 @@ Makernya banyak tu kalian masukan aja namanya sendiri
 *き⃟🦈 ${prefix}google* _query_
 *き⃟🦈 ${prefix}image* _query_
 *き⃟🦈 ${prefix}pinterest* _query_
+
 𝖥𝖴𝖭 𝖬𝖤𝖭𝖴 
 *き⃟🦈 ${prefix}mining*
 *き⃟🦈 ${prefix}cekwatak*
@@ -1093,14 +1091,14 @@ Makernya banyak tu kalian masukan aja namanya sendiri
 *き⃟🦈 ${prefix}babi*
 *き⃟🦈 ${prefix}cekganteng*
 *き⃟🦈 ${prefix}cekcantik*
-©𝑪𝒓𝒆𝒂𝒕𝒐𝒓 ©kurrtod`
+©𝑪𝒓𝒆𝒂𝒕𝒐𝒓 ©vintero`
                buttons = [{buttonId: `${prefix}command`,buttonText:{displayText: '𝗔𝗟𝗟 𝗠𝗘𝗡𝗨'},type:1},{buttonId: `${prefix}rules`,buttonText:{displayText: '𝗥𝗨𝗟𝗘𝗦'},type:1},{buttonId:`${prefix}store`,buttonText:{displayText:'SIMPLE BUTTON MENU'},type:1}]
 
                imageMsg = (await dha.prepareMessageMedia(fs.readFileSync(`./media/sherlynn.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/sherlynn.jpg`)})).imageMessage
 
                buttonsMessage = {
                contentText: `${menu}`,
-               footerText: '\`\`\`MAU BELI SC INI HUBUNGIN KURRXD WA 6281220670449\`\`\`', imageMessage: imageMsg,
+               footerText: '\`\`\`BOT BY VINTERO\`\`\`', imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }
@@ -1139,14 +1137,14 @@ Makernya banyak tu kalian masukan aja namanya sendiri
                     rows: [
                        {
                         title: `${listmenuu[startnum++]}`,
-                        description: `\n\n\n\n\`\`\`JAN LUPA SUBSCRIBE KURRXD\`\`\``,
+                        description: `\n\n\n\n\`\`\`SEEGGSS\`\`\``,
                         rowId: `${prefix}${x}`
                       }
                     ]
                    }
                         list.push(yy)
            }
-               listmsg(from, `${ucapanWaktu}`,   `Hai kak.....\n*${pushname}*\nJangan Lupa Subscribe KurrXd Yahh`, list)
+               listmsg(from, `${ucapanWaktu}`,   `Hai kak.....\n*${pushname}*\nJangan Lupa donasi`, list)
                break
 //------------------< Game >------------------- 
         case 'limitgame': 
@@ -1673,10 +1671,10 @@ Ket : Ketik /resetgame , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {contex
        case 'belipremium':
        case 'buypremium':
        case 'sewabot':
-              gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
+              gopeynya = 'https://telegra.ph/file/f26b542b5c20bd4e07175.jpg'
               teksnya = `*── 「 PRICE LIST 」 ──*
 
-*SHERLYNN SEWA BOT WA*
+*SEWA BOT WA*
 FITUR:ANTILINK,WELCOME,ADD,KICK,DEMOTE,DAN MASIH BANYAK LAGI
 
 HARGA PERMANEN:~25k~ PROMO!!! *10K* MINAT? HUBUNGI OWNER`
@@ -1684,18 +1682,17 @@ HARGA PERMANEN:~25k~ PROMO!!! *10K* MINAT? HUBUNGI OWNER`
               break             
 //------------------< bayar menu >-------------------  
 case 'bayar':
-gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
+gopeynya = 'https://telegra.ph/file/f26b542b5c20bd4e07175.jpg'
 teksnya = ` *「PAYMENT」*
-• GOPAY : scan diatas
-• DANA : 081220670449
-• OVO : scan diatas
-• QRISS DI ATAS 
+• GOPAY :-
+• DANA : 085887879565
+• OVO : -
 ━━━━━━━━━━━━━━━━━━━━`
         dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
  
 case 'buttonstik':
-              gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
+              gopeynya = 'https://telegra.ph/file/f26b542b5c20bd4e07175.jpg'
               teksnya = `*「MENU STICKER」*
 *き⃟🦈 ${prefix}attp* _teks_
 *き⃟🦈 ${prefix}ttp* _teks_
@@ -3405,7 +3402,7 @@ res = await dha.prepareMessageFromContent(from,{
 
 dha.relayWAMessage(res)
 break
-// Bug Trolli ( Sherlynn-Botz )
+// Bug Trolli ( vbot )
 case 'psp': // BUG TROLLI + BUG GC + TROLLI
 if (!mek.key.fromMe && !isOwner) return
 buf = Mfake
@@ -3419,8 +3416,8 @@ res = await dha.prepareMessageFromContent(from,{
 "status": "INQUIRY",
 "surface": "CATALOG",
 "orderTitle": "GUA GK NGERTI",
-"message":"entah lah gua nob",
-"sellerJid": "6288224859350@s.whatsapp.net",
+"message":"entah lah",
+"sellerJid": "6285887879566@s.whatsapp.net",
 "token": "AR7i5IXXiMA6NjT0DxcwdcKxhXCy1rOrvlNJzqXPMr8PCg==",
 "totalAmount1000": "99999999999999999999",
 "totalCurrencyCode": "IDR",
@@ -3445,9 +3442,9 @@ res = await dha.prepareMessageFromContent(from,{
 "itemCount": 2021,
 "status": "INQUIRY",
 "surface": "CATALOG",
-"orderTitle": "LOL",
+"orderTitle": "ABAIKAN GW GA PAHAM",
 "message":"Hallo Kak",
-"sellerJid": "6288224859350@s.whatsapp.net",
+"sellerJid": "6285887879565@s.whatsapp.net",
 "token": "AR7i5IXXiMA6NjT0DxcwdcKxhXCy1rOrvlNJzqXPMr8PCg==",
 "totalAmount1000": "99999999999999999999",
 "totalCurrencyCode": "IDR",
@@ -3467,10 +3464,10 @@ break
               textImg(`${runtime(process.uptime())}`)
               break
        case 'youtube': 
-              reply(`Jangan Lupa Subscribe YT Owner:\n https://youtu.be/Wgi3uOGlmYs`)
+              reply(`Jangan Lupa Subscribe YT Owner:\n https://youtube.com/channel/UCqoC48ciaPlplQ3elB_m9tA`)
               break
        case 'masukandata':
-             reply(`*「BOT MELAYANI」*\n\n━━━━━━━━━━━━━━━━━━━━\n\nMASUKKANA DATA BERIKUT\n*•NAMA GAME:*\n*•ID GAME:*\n*•USER NAME:*\n━━━━━━━━━━━━━━━━━━━━\n*NOTE:*\n*1.* _JANGAN LUPA BUKTI TRXNYA_\n*2.* _OTOMATIS PESANAN_\n_LANSUNG DI PROSES_\n*3.* _PESANAN ANDA DI PROSES_\n_OLEH_\n\n   *©KurrXd*\n\n_JIKA PESANAN ANDA LOW_\n_PROSES MOHON BERSABAR_\nwa.me/6282287486762`)
+             reply(`*「BOT MELAYANI」*\n\n━━━━━━━━━━━━━━━━━━━━\n\nMASUKKANA DATA BERIKUT\n*•NAMA GAME:*\n*•ID GAME:*\n*•USER NAME:*\n━━━━━━━━━━━━━━━━━━━━\n*NOTE:*\n*1.* _JANGAN LUPA BUKTI TRXNYA_\n*2.* _OTOMATIS PESANAN_\n_LANSUNG DI PROSES_\n*3.* _PESANAN ANDA DI PROSES_\n_OLEH_\n\n   *©KurrXd*\n\n_JIKA PESANAN ANDA LOW_\n_PROSES MOHON BERSABAR_\nwa.me/6285887879565`)
               break
       case 'ping':
       case 'speed':
